@@ -51,7 +51,8 @@ h2{
 h3{
     font-weight: 800;
     font-size: 1.7rem;
-    margin-top: none;
+    margin-top: -0.01em;
+    margin-bottom:-0.01em;
 }
 h3:hover{
     color:hsl(47, 88%, 63%);
@@ -59,6 +60,7 @@ h3:hover{
 h3:focus{
     color:hsl(0, 0%, 7%);
 }
+/* It is lacking a link to see the effect of the focus on h3*/
 p{
     font-weight: 500;
     font-size: 1.15rem;
