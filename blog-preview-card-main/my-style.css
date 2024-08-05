@@ -6,25 +6,73 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-height: 100vh;
-    min-width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 main{
     background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
+    align-items:flex-start;
     padding: 1.25rem;
     border-radius: 1rem;
     max-width: 27vw;
+    width:100%;
+    box-shadow: 0.5rem 0.5rem hsl(0, 0%, 7%);
+    margin-top: auto;
+    margin-bottom: auto;
 }
 svg{
     width:100%;
-    height:auto;
+    height:20%;
     display: block;
     border-radius:1rem ;
 }
 .title-box{
     background-color:hsl(47, 88%, 63%);
+    width: fit-content;
+    height: min-content;
+    border-radius: 0.5em;
+    margin-top: 1rem;
+    text-align: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+h1{
+    font-weight: 800;
+    font-size: 1rem;
+}
+h2{
+    font-weight: 500;
+    font-size: 1rem;
+}
+h3{
+    font-weight: 800;
+    font-size: 1.7rem;
+    margin-top: none;
+}
+p{
+    font-weight: 500;
+    font-size: 1.15rem;
+    color: hsl(0, 0%, 42%);
+}
+.presentation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: flex-start;
+}
+img{
+    height: 2.3rem;
+    width: 2.3rem;
+}
+.name{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color:hsl(0, 0%, 7%);
+    margin-left: 0.85rem;
 }
 
 
